@@ -8,14 +8,13 @@ public class Main {
 
         if (refill > 1000) {
             bonus = refill / 100;
-        }
-        else {
+        } else {
             bonus = 0;
         }
-        int balance = customerAccount + refill +  bonus;
-        System.out.println("Ваш баланс: "  + balance + " руб. Ваш бонус: "+ bonus + "руб.");
+        int balance = customerAccount + refill + bonus;
+        System.out.println("Ваш баланс: " + balance + " руб. Ваш бонус: " + bonus + "руб.");
 
-        }
     }
+}
 
 
